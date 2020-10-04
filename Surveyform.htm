@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .body { 
     font-family: helvetica, sans-serif;
     font-size: 14px;
@@ -107,4 +108,115 @@
   </main>
   
   </html>
+=======
+.body { 
+    font-family: helvetica, sans-serif;
+    font-size: 14px;
+    background: linear-gradient(to right, rgba(255, 165, 0, .6), rgba(255, 165, 0, .3));
+  }
+  
+  .div { 
+    padding: 10px 10px 10px 10px;
+  }
+  
+  textarea { 
+  display: block;
+  margin: 10px;
+  
+  }
+  
+  input[type=submit] { 
+    background-color: rgb(55, 255, 55, 0.6);
+    color: black;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    width: 6%;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+  }
+  <!DOCTYPE html>
+  <html>
+  
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Free Code Camp</title>
+  </head>
+  
+  <!--  Content  -->
+  <header>
+    <h1 id="title">Survey Form</h1>
+    <p id="description"> This is the survey form project.</p>
+  </header>
+  
+  <main id="main">
+  
+    <body class="body">
+      <form id="survey-form">
+        <fieldset>
+          <div class="div">
+            <label id="name-label" for="name">Name</label>
+            <input id="name" type="text" placeholder="Enter your name" required>
+          </div>
+  
+          <div class="div">
+            <label id="email-label" for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter email address" required>
+          </div>
+  
+          <div class="div">
+            <label id="number-label" for="number">Age (optional)</label>
+            <input id="number" type="number" min="1" max="120" placeholder="Enter your age">
+          </div>
+  
+          <div class="div">
+            <label for="dropdown">What is your favorite way to de-stress?</label>
+            <select id="dropdown">
+              <option value="1">Meditation</option>
+              <option value="2">Yoga</option>
+              <option value="3">Tai Chi</option>
+              <option value="4">Tense & Release Exercises</option>
+            </select>
+          </div>
+  
+          <div class="div">
+            <label for="radio">What is your favorite way to be present?</label>
+            <input id="radio-choice1" type="radio" name="present" value="breath">
+            <label for="radio-choice1">Focus on my breath</label>
+            <input id="radio-choice2" type="radio" name="present" value="surroundings">
+            <label for="radio-choice2">Focus on my surroundings</label>
+            <input id="radio-choice3" type="radio" name="present" value="beautiful">
+            <label for="radio-choice3">Fixate on something beautiful</label>
+          </div>
+  
+          <div class="div">
+            <label for="checkbox">Have you read any books on Conscious Awareness?</label>
+            <input id="yes" type="checkbox" name="yes" value="yes">
+            <label for="yes">Yes</label>
+            <input id="no" type="checkbox" name="no" value="no">
+            <label for="no">No</label>
+          </div>
+  
+          <div class="div">
+            <label for="books">What are your favorite books on the subject of
+              Conscious Awareness? </label>
+            <textarea id="books" name="books" rows="5" cols="33">
+              </textarea>
+          </div>
+  
+          <div class="submit">
+            <input id="submit" name="submit" type="submit" value=Submit>
+          </div>
+        </fieldset>
+      </form>
+    </body>
+  </main>
+  
+  </html>
+>>>>>>> d35a1ceef77159eb2d2c8258b11281927b5940dc
   
